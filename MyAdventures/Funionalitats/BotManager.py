@@ -15,3 +15,6 @@ class BotManager:
 
     def perform(self):
         self.bot_state.perform()
+
+    def typeOf(self):
+        self.bot_state.typeOf()

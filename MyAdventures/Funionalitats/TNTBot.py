@@ -22,3 +22,9 @@ class TNTBot():
                     
                 elif mensaje.message == "end performance":
                     active_loop = False
+
+                elif mensaje.message == "typeOf":
+                    self.typeOf()
+
+    def typeOf(self):
+        mc.postToChat("TNTBot")

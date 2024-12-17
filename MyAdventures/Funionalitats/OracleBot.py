@@ -21,7 +21,7 @@ def to_markdown(text):
   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 # Configuramos nuestra instancia del modelo con nuestra API key
-GOOGLE_API_KEY = "AIzaSyAhjiXBjzXgsqLNA1iCVnmAFEw3eLkSwrg"
+GOOGLE_API_KEY = ""
 
 genai.configure(api_key = GOOGLE_API_KEY)
 
@@ -38,9 +38,17 @@ class OracleBot():
         while active_loop:
             chatEvent = mc.events.pollChatPosts()
             for mensaje in chatEvent:
-                response = model.generate_content(mensaje.message)
-                response_text = response.text.replace("\n", "  ")
-                mc.postToChat(response_text)
-
                 if mensaje.message == "end performance":
                     active_loop = False
+
+                elif mensaje.message == "typeOf":
+                    self.typeOf()
+
+                else:
+                    response = model.generate_content(mensaje.message)
+                    response_text = response.text.replace("\n", "  ")
+                    mc.postToChat(response_text)
+
+
+    def typeOf(self):
+        mc.postToChat("OracleBot")

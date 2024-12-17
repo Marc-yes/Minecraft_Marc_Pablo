@@ -39,3 +39,6 @@ while True:
 
         elif mensaje.message == "hola":
             mc.postToChat("hola que tal")
+
+        elif mensaje.message == "typeOf":
+            bot_manager.typeOf()
