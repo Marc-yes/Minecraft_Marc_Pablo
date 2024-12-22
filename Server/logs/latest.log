@@ -1857,3 +1857,132 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 [17:51:10] [Netty Server IO #2/INFO]: <marcdelcuco> perform[m
 [17:51:14] [Netty Server IO #2/INFO]: <marcdelcuco> insultam[m
 [17:51:14] [Server thread/INFO]: saboc[m
+[17:58:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57033.
+[17:58:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57034.
+[17:58:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57036.
+[17:58:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57037.
+[17:58:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57136.
+[17:58:38] [Thread-95/INFO]: [RaspberryJuice] Starting input thread
+[17:58:38] [Thread-96/INFO]: [RaspberryJuice] Starting output thread!
+[17:58:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57137.
+[17:58:38] [Thread-97/INFO]: [RaspberryJuice] Starting input thread
+[17:58:38] [Thread-98/INFO]: [RaspberryJuice] Starting output thread!
+[17:58:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57139.
+[17:58:39] [Thread-99/INFO]: [RaspberryJuice] Starting input thread
+[17:58:39] [Thread-100/INFO]: [RaspberryJuice] Starting output thread!
+[17:58:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57140.
+[17:58:39] [Thread-101/INFO]: [RaspberryJuice] Starting input thread
+[17:58:39] [Thread-102/INFO]: [RaspberryJuice] Starting output thread!
+[17:58:56] [Netty Server IO #2/INFO]: <marcdelcuco> hola[m
+[17:58:56] [Server thread/INFO]: hola que tal[m
+[17:58:58] [Netty Server IO #2/INFO]: <marcdelcuco> changeto insultBot[m
+[17:58:58] [Server thread/INFO]: bot changed to insult bot[m
+[17:59:04] [Netty Server IO #2/INFO]: <marcdelcuco> perform[m
+[17:59:08] [Netty Server IO #2/INFO]: <marcdelcuco> typeOf[m
+[17:59:17] [Netty Server IO #2/INFO]: <marcdelcuco> insultam[m
+[17:59:17] [Server thread/INFO]: saboc[m
+[18:01:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57136.
+[18:01:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57137.
+[18:01:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57139.
+[18:01:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57140.
+[18:01:44] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57175.
+[18:01:44] [Thread-103/INFO]: [RaspberryJuice] Starting input thread
+[18:01:44] [Thread-104/INFO]: [RaspberryJuice] Starting output thread!
+[18:01:44] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57176.
+[18:01:44] [Thread-106/INFO]: [RaspberryJuice] Starting output thread!
+[18:01:44] [Thread-105/INFO]: [RaspberryJuice] Starting input thread
+[18:01:46] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57178.
+[18:01:46] [Thread-108/INFO]: [RaspberryJuice] Starting output thread!
+[18:01:46] [Thread-107/INFO]: [RaspberryJuice] Starting input thread
+[18:01:46] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57179.
+[18:01:46] [Thread-109/INFO]: [RaspberryJuice] Starting input thread
+[18:01:46] [Thread-110/INFO]: [RaspberryJuice] Starting output thread!
+[18:01:50] [Netty Server IO #2/INFO]: <marcdelcuco> hola[m
+[18:01:50] [Server thread/INFO]: hola que tal[m
+[18:01:53] [Netty Server IO #2/INFO]: <marcdelcuco> changeto insultBot[m
+[18:01:54] [Server thread/INFO]: bot changed to insult bot[m
+[18:02:04] [Netty Server IO #2/INFO]: <marcdelcuco> perform[m
+[18:02:08] [Netty Server IO #2/INFO]: <marcdelcuco> insultam[m
+[18:02:08] [Server thread/INFO]: saboc[m
+[18:02:11] [Netty Server IO #2/INFO]: <marcdelcuco> typeOf[m
+[18:02:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57179.
+[18:02:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57175.
+[18:02:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57176.
+[18:02:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57178.
+[18:03:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57193.
+[18:03:33] [Thread-111/INFO]: [RaspberryJuice] Starting input thread
+[18:03:33] [Thread-112/INFO]: [RaspberryJuice] Starting output thread!
+[18:03:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57194.
+[18:03:33] [Thread-113/INFO]: [RaspberryJuice] Starting input thread
+[18:03:33] [Thread-114/INFO]: [RaspberryJuice] Starting output thread!
+[18:03:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57196.
+[18:03:35] [Thread-116/INFO]: [RaspberryJuice] Starting output thread!
+[18:03:35] [Thread-115/INFO]: [RaspberryJuice] Starting input thread
+[18:03:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57197.
+[18:03:35] [Thread-117/INFO]: [RaspberryJuice] Starting input thread
+[18:03:35] [Thread-118/INFO]: [RaspberryJuice] Starting output thread!
+[18:03:40] [Netty Server IO #2/INFO]: <marcdelcuco> hola[m
+[18:03:40] [Server thread/INFO]: hola que tal[m
+[18:03:48] [Netty Server IO #2/INFO]: <marcdelcuco> changeto insultBot[m
+[18:03:48] [Server thread/INFO]: bot changed to insult bot[m
+[18:03:52] [Netty Server IO #2/INFO]: <marcdelcuco> perform[m
+[18:03:59] [Netty Server IO #2/INFO]: <marcdelcuco> insultam[m
+[18:03:59] [Server thread/INFO]: saboc[m
+[18:04:08] [Netty Server IO #2/INFO]: <marcdelcuco> typeOf[m
+[18:04:08] [Server thread/INFO]: InsultBot[m
+[18:07:23] [Netty Server IO #2/INFO]: <marcdelcuco> typeOf[m
+[18:07:23] [Server thread/INFO]: InsultBot[m
+[18:07:26] [Netty Server IO #2/INFO]: <marcdelcuco> insultam[m
+[18:07:26] [Server thread/INFO]: no vals un fuckin duro[m
+[18:08:33] [Netty Server IO #2/INFO]: <marcdelcuco> hola[m
+[18:08:43] [Netty Server IO #2/INFO]: <marcdelcuco> hola[m
+[18:08:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57193.
+[18:08:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57194.
+[18:08:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57196.
+[18:08:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57197.
+[18:08:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57230.
+[18:08:51] [Thread-119/INFO]: [RaspberryJuice] Starting input thread
+[18:08:51] [Thread-120/INFO]: [RaspberryJuice] Starting output thread!
+[18:08:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57231.
+[18:08:51] [Thread-122/INFO]: [RaspberryJuice] Starting output thread!
+[18:08:51] [Thread-121/INFO]: [RaspberryJuice] Starting input thread
+[18:08:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57233.
+[18:08:52] [Thread-123/INFO]: [RaspberryJuice] Starting input thread
+[18:08:52] [Thread-124/INFO]: [RaspberryJuice] Starting output thread!
+[18:08:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57234.
+[18:08:52] [Thread-125/INFO]: [RaspberryJuice] Starting input thread
+[18:08:52] [Thread-126/INFO]: [RaspberryJuice] Starting output thread!
+[18:08:56] [Netty Server IO #2/INFO]: <marcdelcuco> hola[m
+[18:08:56] [Server thread/INFO]: hola que tal[m
+[18:09:03] [Netty Server IO #2/INFO]: <marcdelcuco> changeto tntBotç[m
+[18:09:06] [Netty Server IO #2/INFO]: <marcdelcuco> changeto tntBot[m
+[18:09:06] [Server thread/INFO]: bot changed to tnt bot[m
+[18:09:09] [Netty Server IO #2/INFO]: <marcdelcuco> perform[m
+[18:09:11] [Netty Server IO #2/INFO]: <marcdelcuco> tnt[m
+[18:09:15] [Netty Server IO #2/INFO]: <marcdelcuco> typeOf[m
+[18:09:15] [Server thread/INFO]: TNTBot[m
+[18:09:19] [Netty Server IO #2/INFO]: <marcdelcuco> tnt[m
+[18:09:37] [Netty Server IO #2/INFO]: <marcdelcuco> changeto OracleBot[m
+[18:09:42] [Netty Server IO #2/INFO]: <marcdelcuco> changeto oracleBot[m
+[18:11:14] [Netty Server IO #2/INFO]: <marcdelcuco> changeto OracleBot[m
+[18:11:19] [Netty Server IO #2/INFO]: <marcdelcuco> end performance[m
+[18:11:19] [Server thread/INFO]: performance ended[m
+[18:11:22] [Netty Server IO #2/INFO]: <marcdelcuco> changeto OracleBot[m
+[18:11:23] [Server thread/INFO]: bot changed to oracle bot[m
+[18:11:27] [Netty Server IO #2/INFO]: <marcdelcuco> perform[m
+[18:11:30] [Netty Server IO #2/INFO]: <marcdelcuco> hola[m
+[18:11:32] [Server thread/INFO]: ­Hola a ti tambi‚n! ¨Hay algo en lo que pueda ayudarte hoy?[m
+[18:11:45] [Netty Server IO #2/INFO]: <marcdelcuco> como puedo hacer un pico en minecraft?[m
+[18:11:49] [Server thread/INFO]: **Materiales necesarios:**    * Lingote de hierro (2 unidades)  * Palos (3 unidades)    **Instrucciones:**    1. **Crea una mesa de trabajo:** Coloca 4 tablones de madera en un cuadrado de 2x2 en la cuadr¡cula de fabricaci¢n.  2. **Haz un lingote de hierro:** Calienta mineral de hierro en un horno.  3. **Crea palos:** Coloca 2 tablones de madera uno al lado del otro en la cuadr¡cula de fabricaci¢n.  4. **Coloca los materiales en la mesa de trabajo:**      * Coloca un lingote de hierro en el centro.      * Coloca un palo encima del lingote de hierro.      * Coloca dos palos a la izquierda y a la derecha del lingote de hierro, formando una forma de "T".    5. **Haz clic derecho o presiona el bot¢n de crear:** Esto crear  un pico.    **Consejos:**    * Los picos de hierro son los m s d‚biles y se rompen con mayor facilidad.  * Los picos mejores, como los hechos de diamante o netherita, son m s duraderos y pueden extraer m s tipos de bloques.  * Cuanto mejor sea el material del pico, m s r pido se extraer n los bloques.[m
+[18:12:00] [Netty Server IO #2/INFO]: <marcdelcuco> typeOf[m
+[18:12:00] [Server thread/INFO]: OracleBot[m
+[18:12:04] [Netty Server IO #2/INFO]: <marcdelcuco> hola[m
+[18:12:05] [Server thread/INFO]: Hola, ¨c¢mo te encuentras?[m
+[18:12:11] [Netty Server IO #2/INFO]: <marcdelcuco> end performance[m
+[18:12:12] [Server thread/INFO]: performance ended[m
+[18:20:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57234.
+[18:20:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57230.
+[18:20:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57231.
+[18:20:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57233.
+[19:06:30] [Server thread/INFO]: marcdelcuco lost connection: Disconnected
+[19:06:30] [Server thread/INFO]: marcdelcuco left the game
