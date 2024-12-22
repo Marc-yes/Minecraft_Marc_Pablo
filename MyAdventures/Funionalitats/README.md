@@ -25,7 +25,7 @@ Per utilitzar l'OracleBot caldrà crear una clau d'API que podrem trobar en aque
 https://ai.google.dev/gemini-api/docs?hl=es-419
 
 
-Per a executar el programa caldrà posar a la terminal:
+Per a executar el programa caldrà posar-nos des de la terminal al directori "Funcionalitats" i després posar:
 python3 Main.py
 
 Un cop estem al joc, podem comprovar que el programa funciona escrivint al xat "hola", i ens haurà de retornar "hola que tal”. Aquest seria l’estat base.
