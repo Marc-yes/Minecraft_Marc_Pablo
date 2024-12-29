@@ -21,7 +21,7 @@ def to_markdown(text):
   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 # Configuramos nuestra instancia del modelo con nuestra API key
-GOOGLE_API_KEY = ""
+GOOGLE_API_KEY = "AIzaSyDb-8KZkaIGBaMtf5LK63ejhVi7nK6Pzh8"
 
 genai.configure(api_key = GOOGLE_API_KEY)
 
@@ -52,3 +52,4 @@ class OracleBot():
 
     def typeOf(self):
         mc.postToChat("OracleBot")
+        return "OracleBot"

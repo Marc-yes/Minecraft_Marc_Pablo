@@ -8,6 +8,8 @@ Els següents passos són des de la terminal de l'entorn que voleu fer servir.
 Per instal·lar l'API de Gemini, fer:
 python3 -m pip install -q -U google-generativeai
 
+**Si la comanda "python3" no funciona, utilitza "py".
+
 i després:
 python -m pip install Ipython --user
 
@@ -24,9 +26,12 @@ python3 -m pip install Ipython
 Per utilitzar l'OracleBot caldrà crear una clau d'API que podrem trobar en aquesta pàgina:
 https://ai.google.dev/gemini-api/docs?hl=es-419
 
+Aquesta clau, s'ha de posar al paràmetre GOOGLE_API_KEY del fitxer OracleBot.py.
 
 Per a executar el programa caldrà posar-nos des de la terminal al directori "Funcionalitats" i després posar:
 python3 Main.py
+
+També es podria executar amb un run normal.
 
 Un cop estem al joc, podem comprovar que el programa funciona escrivint al xat "hola", i ens haurà de retornar "hola que tal”. Aquest seria l’estat base.
 
