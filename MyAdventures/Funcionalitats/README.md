@@ -1,4 +1,4 @@
-LA BRANCA BONA ÉS "MARC"
+LA BRANCA BONA ÉS "main"
 
 Aquest projecte tracta de la implementació d'alguns bots dins d'un servidor de Minecraft. Tenim l'insultBot, TNTBot i l'OracleBot. Hem implementat el patró de disseny "state", el qual permet canviar de Bot dins de la partida. 
 
@@ -35,18 +35,18 @@ També es podria executar amb un run normal.
 
 Un cop estem al joc, podem comprovar que el programa funciona escrivint al xat "hola", i ens haurà de retornar "hola que tal”. Aquest seria l’estat base.
 
-Per a escollir un bot hem d'escriure pel xat “changeto” seguit d'un dels bots: “tntBot”, “insultBot”, “OracleBot”. Si tot ha anat bé, al xat s’escriurà la resposta “bot changed to insult bot”.
+Per a escollir un bot hem d'escriure pel xat “changeto” seguit d'un dels bots: “tntBot”, “insultBot”, “OracleBot”. Si tot ha anat bé, al xat s’escriurà la resposta “bot changed to *Bot escullit*”.
 Exemple: “changeto tntBot”
 
-Per utilitzar el bot primer caldrà escriure la comanda “perform”. En cada Bot tenim diferents opcions:
+Per utilitzar el bot primer caldrà escriure la comanda “perform”. Aquesta, tindrà efectes diferents en cada bot:
 
 insultBot:
-	Posarà un insult al xat sempre que s'escrigui “insultam”.
+	Posarà un insult al xat.
 tntBot:
-	Posarà una tnt encesa al teu costat sempre que s'escrigui “tnt”.
+	Posarà una tnt encesa al teu costat..
 OracleBot:
 	La intel·ligència artificial “Gemini” contestarà a totes les entrades del xat.
 
 Es pot saber en quin bot estem escrivint “typeOf”.
 
-IMPORTANT: Quan es vulgui canviar de bot, caldrà finalitzar l’execució de l’actual escrivint “end performance”. Així tornaràs a l’estat base.
+IMPORTANT: Quan es vulgui sortir de la conversa amb la IA Gemini, caldrà finalitzar l’execució  escrivint “end performance”.

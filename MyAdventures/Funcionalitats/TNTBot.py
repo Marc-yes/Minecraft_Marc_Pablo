@@ -15,8 +15,7 @@ class TNTBot():
 
         self.mc.setBlock(x+1, y, z, block.TNT)
         self.mc.setBlock(x+1, y+1, z, block.FIRE)
-        return "TNT planted"
+
 
     def typeOf(self):
         self.mc.postToChat("TNTBot")
-        return "TNTBot"

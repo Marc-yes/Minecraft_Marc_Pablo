@@ -59,7 +59,6 @@
     },
     "done": true
   },
-
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2024-12-22 18:56:22 +0100"

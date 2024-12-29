@@ -23,13 +23,14 @@ class TestInsultBot(unittest.TestCase):
         insult_bot = InsultBot(mc_instance=mock_mc)
 
         # Executar el mètode perform
-        insult = insult_bot.perform()
+        insult_bot.perform()
+
+        # Agafar l'últim missatge enviat al xat
+        last_posted_message = mock_mc.postToChat.call_args[0][0]
 
         # Comprovar que l'insult retornat està a la llista
-        self.assertIn(insult, insults, "L'insult retornat no està a la llista d'insults.")
+        self.assertIn(last_posted_message, insults)
 
-        # Verificar que s'ha cridat postToChat amb l'insult seleccionat
-        mock_mc.postToChat.assert_called_with(insult)
 
     def test_typeOf_returns_correct_value(self):
         # Crear una instància simulada de Minecraft
@@ -39,10 +40,7 @@ class TestInsultBot(unittest.TestCase):
         insult_bot = InsultBot(mc_instance=mock_mc)
 
         # Executar el mètode typeOf
-        result = insult_bot.typeOf()
-
-        # Comprovar que el mètode retorna "InsultBot"
-        self.assertEqual(result, "InsultBot", "El mètode typeOf ha de retornar 'InsultBot'.")
+        insult_bot.typeOf()
 
         # Verificar que s'ha cridat postToChat amb "InsultBot"
         mock_mc.postToChat.assert_called_with("InsultBot")

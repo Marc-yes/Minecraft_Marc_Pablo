@@ -35,10 +35,7 @@ class TestTNTBot(unittest.TestCase):
         player_pos = (10, 64, 10)
 
         # Executar el mètode perform amb la posició simulada
-        result = tnt_bot.perform(player_pos)
-
-        # Comprovar que el resultat retornat és correcte
-        self.assertEqual(result, "TNT planted")
+        tnt_bot.perform(player_pos)
 
         # Verificar que els blocs correctes s'han col·locat a les coordenades esperades
         mock_mc.setBlock.assert_any_call(11, 64, 10, mock_tnt)
@@ -54,9 +51,6 @@ class TestTNTBot(unittest.TestCase):
 
         # Executar el mètode typeOf
         result = tnt_bot.typeOf()
-
-        # Comprovar que el mètode retorna "TNTBot"
-        self.assertEqual(result, "TNTBot")
 
         # Verificar que s'ha cridat postToChat amb "TNTBot"
         mock_mc.postToChat.assert_called_with("TNTBot")

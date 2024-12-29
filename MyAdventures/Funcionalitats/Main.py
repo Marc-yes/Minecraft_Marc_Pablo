@@ -2,14 +2,7 @@ import sys
 import os
 from unittest.mock import MagicMock
 
-# Mode de proves: utilitza un mock si mcpi no està instal·lat
-try:
-    from mcpi.minecraft import Minecraft
-except ModuleNotFoundError:
-    Minecraft = MagicMock()
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from Funcionalitats.InsultBot import InsultBot
 
 if __name__ == "__main__":
     from InsultBot import InsultBot

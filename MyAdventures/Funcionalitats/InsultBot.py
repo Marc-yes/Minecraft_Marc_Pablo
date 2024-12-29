@@ -19,8 +19,6 @@ class InsultBot:
         insult = insults[r]
         # Envia l'insult al xat de Minecraft
         self.mc.postToChat(insult)
-        return insult  # Retorna l'insult seleccionat
 
     def typeOf(self):
         self.mc.postToChat("InsultBot")
-        return "InsultBot"
