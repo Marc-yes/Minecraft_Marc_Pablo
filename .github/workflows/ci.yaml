@@ -50,6 +50,8 @@ jobs:
           pytest --cov=MyAdventures --cov-report=xml MyAdventures/tests/test_InsultBot.py
           pytest --cov=MyAdventures --cov-report=xml MyAdventures/tests/test_TNTBot.py
           
-      - uses: codecov/codecov-action@v5
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          slug: Marc-yes/MINECRAFT_MARC_PABLO
