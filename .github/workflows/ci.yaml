@@ -50,6 +50,6 @@ jobs:
           pytest --cov=MyAdventures --cov-report=xml MyAdventures/tests/test_InsultBot.py
           pytest --cov=MyAdventures --cov-report=xml MyAdventures/tests/test_TNTBot.py
           
-      uses: codecov/codecov-action@v5
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
+      - uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
