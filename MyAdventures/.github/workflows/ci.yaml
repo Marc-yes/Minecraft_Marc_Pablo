@@ -48,4 +48,3 @@ jobs:
               pytest --cov=MyAdventures --cov-report=xml tests/test_insultBot.py
               pytest --cov=MyAdventures --cov-report=xml tests/test_TNTBot.py
 
-          
