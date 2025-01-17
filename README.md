@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/Marc-yes/Minecraft_Marc_Pablo/graph/badge.svg?token=IFV5AXCBXC)](https://codecov.io/gh/Marc-yes/Minecraft_Marc_Pablo)
+
 # Windows PC Starter Kit
 
 Martin O'Hanlon
